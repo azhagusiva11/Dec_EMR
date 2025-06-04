@@ -1,0 +1,949 @@
+{
+  "diseases": {
+    "wilsons_disease": {
+      "name": "Wilson's Disease",
+      "icd10": "E83.0",
+      "prevalence": "1 in 30,000",
+      "symptoms": {
+        "neurological": [
+          "tremor",
+          "dystonia",
+          "dysarthria",
+          "dysphagia",
+          "drooling",
+          "gait disturbance",
+          "parkinsonian features"
+        ],
+        "psychiatric": [
+          "depression",
+          "anxiety",
+          "personality changes",
+          "psychosis",
+          "cognitive decline"
+        ],
+        "hepatic": [
+          "jaundice",
+          "hepatomegaly",
+          "cirrhosis",
+          "acute liver failure",
+          "elevated liver enzymes"
+        ],
+        "ophthalmologic": [
+          "kayser-fleischer rings",
+          "sunflower cataracts"
+        ],
+        "other": [
+          "hemolytic anemia",
+          "renal stones",
+          "osteoporosis",
+          "arthritis"
+        ]
+      },
+      "time_window_days": 180,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "Serum ceruloplasmin (<20 mg/dL)",
+        "24-hour urine copper (>100 mcg)",
+        "Slit-lamp examination",
+        "Liver biopsy for copper content",
+        "ATP7B gene mutation analysis"
+      ],
+      "specialist": "Hepatologist/Neurologist"
+    },
+    "multiple_sclerosis": {
+      "name": "Multiple Sclerosis",
+      "icd10": "G35",
+      "prevalence": "1 in 1,000",
+      "symptoms": {
+        "visual": [
+          "optic neuritis",
+          "diplopia",
+          "nystagmus",
+          "vision loss",
+          "blurred vision"
+        ],
+        "motor": [
+          "weakness",
+          "spasticity",
+          "ataxia",
+          "tremor",
+          "gait disturbance"
+        ],
+        "sensory": [
+          "numbness",
+          "tingling",
+          "pain",
+          "lhermitte's sign"
+        ],
+        "autonomic": [
+          "bladder dysfunction",
+          "bowel dysfunction",
+          "sexual dysfunction"
+        ],
+        "cognitive": [
+          "memory problems",
+          "attention deficit",
+          "executive dysfunction"
+        ],
+        "other": [
+          "fatigue",
+          "heat sensitivity",
+          "uhthoff's phenomenon"
+        ]
+      },
+      "time_window_days": 365,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "MRI brain and spine with contrast",
+        "Lumbar puncture for oligoclonal bands",
+        "Visual evoked potentials",
+        "Vitamin B12 levels",
+        "ANA, Anti-dsDNA (to rule out lupus)"
+      ],
+      "specialist": "Neurologist"
+    },
+    "myasthenia_gravis": {
+      "name": "Myasthenia Gravis",
+      "icd10": "G70.0",
+      "prevalence": "1 in 20,000",
+      "symptoms": {
+        "ocular": [
+          "ptosis",
+          "diplopia",
+          "eyelid fatigue"
+        ],
+        "bulbar": [
+          "dysarthria",
+          "dysphagia",
+          "nasal speech",
+          "jaw fatigue"
+        ],
+        "limb": [
+          "proximal muscle weakness",
+          "fatigue with repetition",
+          "neck weakness"
+        ],
+        "respiratory": [
+          "dyspnea",
+          "orthopnea",
+          "respiratory failure"
+        ],
+        "pattern": [
+          "worse with activity",
+          "better with rest",
+          "diurnal variation"
+        ]
+      },
+      "time_window_days": 120,
+      "min_symptoms": 2,
+      "diagnostic_tests": [
+        "Anti-AChR antibodies",
+        "Anti-MuSK antibodies",
+        "Edrophonium (Tensilon) test",
+        "Repetitive nerve stimulation",
+        "Single fiber EMG",
+        "CT chest for thymoma"
+      ],
+      "specialist": "Neurologist"
+    },
+    "systemic_lupus_erythematosus": {
+      "name": "Systemic Lupus Erythematosus",
+      "icd10": "M32",
+      "prevalence": "1 in 2,000",
+      "symptoms": {
+        "constitutional": [
+          "fever",
+          "fatigue",
+          "weight loss",
+          "malaise"
+        ],
+        "mucocutaneous": [
+          "malar rash",
+          "discoid rash",
+          "photosensitivity",
+          "oral ulcers",
+          "alopecia"
+        ],
+        "musculoskeletal": [
+          "arthritis",
+          "arthralgia",
+          "myositis"
+        ],
+        "renal": [
+          "proteinuria",
+          "hematuria",
+          "nephritis"
+        ],
+        "neuropsychiatric": [
+          "seizures",
+          "psychosis",
+          "headache",
+          "cognitive dysfunction"
+        ],
+        "cardiopulmonary": [
+          "pericarditis",
+          "pleuritis",
+          "pneumonitis"
+        ],
+        "hematologic": [
+          "anemia",
+          "leukopenia",
+          "thrombocytopenia"
+        ]
+      },
+      "time_window_days": 180,
+      "min_symptoms": 4,
+      "diagnostic_tests": [
+        "ANA (Anti-nuclear antibody)",
+        "Anti-dsDNA",
+        "Anti-Sm antibodies",
+        "C3, C4 complement levels",
+        "Complete blood count",
+        "Urinalysis",
+        "Anti-phospholipid antibodies"
+      ],
+      "specialist": "Rheumatologist"
+    },
+    "addisons_disease": {
+      "name": "Addison's Disease",
+      "icd10": "E27.1",
+      "prevalence": "1 in 100,000",
+      "symptoms": {
+        "constitutional": [
+          "fatigue",
+          "weakness",
+          "weight loss",
+          "anorexia"
+        ],
+        "gi": [
+          "nausea",
+          "vomiting",
+          "abdominal pain",
+          "diarrhea"
+        ],
+        "skin": [
+          "hyperpigmentation",
+          "vitiligo"
+        ],
+        "cardiovascular": [
+          "hypotension",
+          "postural hypotension",
+          "syncope"
+        ],
+        "metabolic": [
+          "salt craving",
+          "hypoglycemia",
+          "hyponatremia",
+          "hyperkalemia"
+        ],
+        "psychiatric": [
+          "depression",
+          "irritability",
+          "confusion"
+        ]
+      },
+      "time_window_days": 180,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "8 AM cortisol level",
+        "ACTH stimulation test",
+        "ACTH levels",
+        "Serum electrolytes",
+        "Anti-adrenal antibodies",
+        "Adrenal CT scan"
+      ],
+      "specialist": "Endocrinologist"
+    },
+    "behcets_disease": {
+      "name": "Behcet's Disease",
+      "icd10": "M35.2",
+      "prevalence": "1 in 20,000",
+      "symptoms": {
+        "mucocutaneous": [
+          "oral ulcers",
+          "genital ulcers",
+          "skin lesions",
+          "folliculitis",
+          "erythema nodosum"
+        ],
+        "ocular": [
+          "uveitis",
+          "retinal vasculitis",
+          "hypopyon",
+          "vision loss"
+        ],
+        "vascular": [
+          "thrombophlebitis",
+          "deep vein thrombosis",
+          "arterial aneurysms"
+        ],
+        "neurological": [
+          "headache",
+          "meningoencephalitis",
+          "stroke",
+          "seizures"
+        ],
+        "gi": [
+          "abdominal pain",
+          "diarrhea",
+          "gi ulcers",
+          "bleeding"
+        ],
+        "joint": [
+          "arthritis",
+          "arthralgia"
+        ]
+      },
+      "time_window_days": 120,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "Pathergy test",
+        "HLA-B51",
+        "ESR/CRP",
+        "Ophthalmologic examination",
+        "Skin biopsy"
+      ],
+      "specialist": "Rheumatologist"
+    },
+    "pheochromocytoma": {
+      "name": "Pheochromocytoma",
+      "icd10": "D35.0",
+      "prevalence": "1 in 100,000",
+      "symptoms": {
+        "classic_triad": [
+          "headache",
+          "palpitations",
+          "diaphoresis"
+        ],
+        "cardiovascular": [
+          "hypertension",
+          "hypertensive crisis",
+          "orthostatic hypotension",
+          "arrhythmias"
+        ],
+        "metabolic": [
+          "hyperglycemia",
+          "weight loss",
+          "heat intolerance"
+        ],
+        "neurological": [
+          "anxiety",
+          "tremor",
+          "nervousness",
+          "panic attacks"
+        ],
+        "other": [
+          "pallor",
+          "flushing",
+          "chest pain",
+          "abdominal pain"
+        ]
+      },
+      "time_window_days": 90,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "24-hour urine metanephrines",
+        "Plasma free metanephrines",
+        "CT/MRI abdomen",
+        "MIBG scan",
+        "Genetic testing (VHL, RET, NF1)"
+      ],
+      "specialist": "Endocrinologist"
+    },
+    "hemochromatosis": {
+      "name": "Hemochromatosis",
+      "icd10": "E83.1",
+      "prevalence": "1 in 200-500",
+      "symptoms": {
+        "constitutional": [
+          "fatigue",
+          "weakness",
+          "lethargy"
+        ],
+        "hepatic": [
+          "hepatomegaly",
+          "cirrhosis",
+          "elevated liver enzymes"
+        ],
+        "endocrine": [
+          "diabetes",
+          "hypogonadism",
+          "hypothyroidism"
+        ],
+        "cardiac": [
+          "cardiomyopathy",
+          "arrhythmias",
+          "heart failure"
+        ],
+        "musculoskeletal": [
+          "arthropathy",
+          "joint pain",
+          "chondrocalcinosis"
+        ],
+        "skin": [
+          "bronze skin",
+          "hyperpigmentation"
+        ]
+      },
+      "time_window_days": 365,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "Serum ferritin",
+        "Transferrin saturation",
+        "HFE gene mutation (C282Y, H63D)",
+        "Liver function tests",
+        "MRI liver for iron quantification"
+      ],
+      "specialist": "Hepatologist/Hematologist"
+    },
+    "fabry_disease": {
+      "name": "Fabry Disease",
+      "icd10": "E75.2",
+      "prevalence": "1 in 40,000",
+      "symptoms": {
+        "pain": [
+          "acroparesthesias",
+          "burning pain in hands/feet",
+          "pain crises"
+        ],
+        "skin": [
+          "angiokeratomas",
+          "hypohidrosis",
+          "telangiectasias"
+        ],
+        "ocular": [
+          "corneal verticillata",
+          "cataracts",
+          "retinal vessel tortuosity"
+        ],
+        "cardiac": [
+          "left ventricular hypertrophy",
+          "arrhythmias",
+          "angina"
+        ],
+        "renal": [
+          "proteinuria",
+          "renal failure"
+        ],
+        "neurological": [
+          "stroke",
+          "TIA",
+          "white matter lesions"
+        ],
+        "gi": [
+          "abdominal pain",
+          "diarrhea",
+          "nausea"
+        ]
+      },
+      "time_window_days": 365,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "Alpha-galactosidase A enzyme activity",
+        "GLA gene mutation analysis",
+        "Lyso-Gb3 levels",
+        "Kidney biopsy (zebra bodies)",
+        "Echocardiogram"
+      ],
+      "specialist": "Medical Geneticist"
+    },
+    "acute_intermittent_porphyria": {
+      "name": "Acute Intermittent Porphyria",
+      "icd10": "E80.2",
+      "prevalence": "1 in 20,000",
+      "symptoms": {
+        "abdominal": [
+          "severe abdominal pain",
+          "constipation",
+          "nausea",
+          "vomiting"
+        ],
+        "neurological": [
+          "peripheral neuropathy",
+          "muscle weakness",
+          "seizures",
+          "confusion"
+        ],
+        "psychiatric": [
+          "anxiety",
+          "depression",
+          "hallucinations",
+          "paranoia"
+        ],
+        "autonomic": [
+          "tachycardia",
+          "hypertension",
+          "sweating"
+        ],
+        "other": [
+          "dark urine",
+          "hyponatremia",
+          "pain in back/limbs"
+        ]
+      },
+      "time_window_days": 90,
+      "min_symptoms": 3,
+      "triggers": [
+        "medications",
+        "alcohol",
+        "fasting",
+        "stress",
+        "hormones"
+      ],
+      "diagnostic_tests": [
+        "Urine porphobilinogen (PBG)",
+        "Urine aminolevulinic acid (ALA)",
+        "HMBS gene mutation analysis",
+        "Erythrocyte PBG deaminase activity"
+      ],
+      "specialist": "Hematologist/Medical Geneticist"
+    },
+    "hereditary_angioedema": {
+      "name": "Hereditary Angioedema",
+      "icd10": "D84.1",
+      "prevalence": "1 in 50,000",
+      "symptoms": {
+        "swelling": [
+          "face swelling",
+          "lip swelling",
+          "tongue swelling",
+          "throat swelling",
+          "limb swelling"
+        ],
+        "gi": [
+          "abdominal pain",
+          "nausea",
+          "vomiting",
+          "diarrhea"
+        ],
+        "respiratory": [
+          "dyspnea",
+          "stridor",
+          "voice changes"
+        ],
+        "skin": [
+          "non-pruritic swelling",
+          "no urticaria"
+        ]
+      },
+      "time_window_days": 180,
+      "min_symptoms": 2,
+      "diagnostic_tests": [
+        "C4 complement level (low)",
+        "C1 esterase inhibitor level",
+        "C1 esterase inhibitor function",
+        "C1q level (normal in hereditary)",
+        "SERPING1 gene mutation"
+      ],
+      "specialist": "Immunologist/Allergist"
+    },
+    "gaucher_disease": {
+      "name": "Gaucher Disease",
+      "icd10": "E75.2",
+      "prevalence": "1 in 60,000",
+      "symptoms": {
+        "hematologic": [
+          "anemia",
+          "thrombocytopenia",
+          "easy bruising",
+          "fatigue"
+        ],
+        "organ": [
+          "hepatomegaly",
+          "splenomegaly",
+          "abdominal distension"
+        ],
+        "bone": [
+          "bone pain",
+          "pathological fractures",
+          "avascular necrosis"
+        ],
+        "other": [
+          "growth retardation",
+          "delayed puberty",
+          "pingueculae"
+        ]
+      },
+      "time_window_days": 365,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "Beta-glucocerebrosidase enzyme activity",
+        "Chitotriosidase levels",
+        "GBA gene mutation analysis",
+        "Bone marrow biopsy (Gaucher cells)",
+        "MRI for bone involvement"
+      ],
+      "specialist": "Hematologist/Medical Geneticist"
+    },
+    "mastocytosis": {
+      "name": "Mastocytosis",
+      "icd10": "Q82.2",
+      "prevalence": "1 in 10,000",
+      "symptoms": {
+        "skin": [
+          "urticaria pigmentosa",
+          "maculopapular lesions",
+          "darier sign",
+          "flushing"
+        ],
+        "systemic": [
+          "anaphylaxis",
+          "hypotension",
+          "syncope",
+          "tachycardia"
+        ],
+        "gi": [
+          "abdominal pain",
+          "diarrhea",
+          "nausea",
+          "peptic ulcers"
+        ],
+        "bone": [
+          "osteoporosis",
+          "bone pain",
+          "pathological fractures"
+        ],
+        "neuropsychiatric": [
+          "headache",
+          "cognitive impairment",
+          "depression"
+        ]
+      },
+      "time_window_days": 180,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "Serum tryptase levels",
+        "Bone marrow biopsy",
+        "KIT D816V mutation analysis",
+        "24-hour urine histamine metabolites",
+        "Skin biopsy"
+      ],
+      "specialist": "Hematologist/Allergist"
+    },
+    "hemophagocytic_lymphohistiocytosis_(hlh)": {
+      "name": "Hemophagocytic Lymphohistiocytosis (HLH)",
+      "icd10": "D76.1",
+      "prevalence": "1 in 50,000",
+      "symptoms": {
+        "systemic": [
+          "prolonged fever",
+          "hepatosplenomegaly",
+          "lymphadenopathy"
+        ],
+        "hematologic": [
+          "cytopenia",
+          "anemia",
+          "thrombocytopenia",
+          "neutropenia"
+        ],
+        "neurological": [
+          "seizures",
+          "ataxia",
+          "irritability",
+          "coma"
+        ],
+        "skin": [
+          "rash",
+          "jaundice"
+        ],
+        "lab": [
+          "hyperferritinemia",
+          "hypertriglyceridemia",
+          "hypofibrinogenemia"
+        ]
+      },
+      "time_window_days": 30,
+      "min_symptoms": 5,
+      "diagnostic_tests": [
+        "Ferritin (>500 mcg/L)",
+        "Soluble CD25 (>2400 U/mL)",
+        "NK cell activity",
+        "Bone marrow biopsy",
+        "Genetic testing for PRF1, UNC13D, STX11"
+      ],
+      "specialist": "Hematologist/Immunologist"
+    },
+    "cushings_disease": {
+      "name": "Cushing's Disease",
+      "icd10": "E24.0",
+      "prevalence": "1 in 25,000",
+      "symptoms": {
+        "physical": [
+          "central obesity",
+          "moon face",
+          "buffalo hump",
+          "purple striae",
+          "easy bruising"
+        ],
+        "metabolic": [
+          "diabetes",
+          "hypertension",
+          "osteoporosis",
+          "hyperlipidemia"
+        ],
+        "neuropsychiatric": [
+          "depression",
+          "anxiety",
+          "cognitive impairment",
+          "psychosis"
+        ],
+        "reproductive": [
+          "amenorrhea",
+          "decreased libido",
+          "erectile dysfunction"
+        ],
+        "other": [
+          "muscle weakness",
+          "poor wound healing",
+          "hirsutism"
+        ]
+      },
+      "time_window_days": 365,
+      "min_symptoms": 4,
+      "diagnostic_tests": [
+        "24-hour urine free cortisol",
+        "Late-night salivary cortisol",
+        "Dexamethasone suppression test",
+        "ACTH levels",
+        "Pituitary MRI"
+      ],
+      "specialist": "Endocrinologist"
+    },
+    "periodic_fever_syndromes_(fmf,_traps,_etc.)": {
+      "name": "Periodic Fever Syndromes (FMF, TRAPS, etc.)",
+      "icd10": "E85.0",
+      "prevalence": "Varies by ethnicity",
+      "symptoms": {
+        "fever": [
+          "recurrent fever",
+          "periodic fever",
+          "predictable fever episodes"
+        ],
+        "abdominal": [
+          "severe abdominal pain",
+          "peritonitis-like symptoms"
+        ],
+        "chest": [
+          "pleuritic chest pain",
+          "pericarditis"
+        ],
+        "joint": [
+          "arthritis",
+          "arthralgia",
+          "joint swelling"
+        ],
+        "skin": [
+          "erysipelas-like rash",
+          "skin lesions"
+        ],
+        "other": [
+          "myalgia",
+          "testicular pain",
+          "amyloidosis risk"
+        ]
+      },
+      "time_window_days": 90,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "MEFV gene mutation (FMF)",
+        "TNFRSF1A mutation (TRAPS)",
+        "Inflammatory markers during attacks",
+        "Serum amyloid A",
+        "Colchicine response trial"
+      ],
+      "specialist": "Rheumatologist/Medical Geneticist"
+    },
+    "primary_hyperparathyroidism": {
+      "name": "Primary Hyperparathyroidism",
+      "icd10": "E21.0",
+      "prevalence": "1 in 1,000",
+      "symptoms": {
+        "metabolic": [
+          "hypercalcemia",
+          "kidney stones",
+          "osteoporosis",
+          "pathological fractures"
+        ],
+        "gi": [
+          "peptic ulcers",
+          "pancreatitis",
+          "constipation",
+          "nausea"
+        ],
+        "neuropsychiatric": [
+          "depression",
+          "anxiety",
+          "cognitive dysfunction",
+          "fatigue"
+        ],
+        "musculoskeletal": [
+          "muscle weakness",
+          "bone pain",
+          "joint aches"
+        ],
+        "other": [
+          "polyuria",
+          "polydipsia",
+          "hypertension"
+        ]
+      },
+      "time_window_days": 180,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "Serum calcium (elevated)",
+        "PTH levels (elevated/inappropriately normal)",
+        "24-hour urine calcium",
+        "Sestamibi scan",
+        "Neck ultrasound",
+        "DEXA scan"
+      ],
+      "specialist": "Endocrinologist/Endocrine Surgeon"
+    },
+    "sarcoidosis": {
+      "name": "Sarcoidosis",
+      "icd10": "D86",
+      "prevalence": "1 in 5,000",
+      "symptoms": {
+        "pulmonary": [
+          "cough",
+          "dyspnea",
+          "chest pain",
+          "wheezing"
+        ],
+        "systemic": [
+          "fatigue",
+          "fever",
+          "weight loss",
+          "night sweats"
+        ],
+        "ocular": [
+          "uveitis",
+          "dry eyes",
+          "vision changes"
+        ],
+        "skin": [
+          "erythema nodosum",
+          "lupus pernio",
+          "skin plaques"
+        ],
+        "cardiac": [
+          "arrhythmias",
+          "heart block",
+          "cardiomyopathy"
+        ],
+        "neurological": [
+          "cranial nerve palsy",
+          "meningitis",
+          "seizures"
+        ],
+        "other": [
+          "hypercalcemia",
+          "lymphadenopathy",
+          "hepatosplenomegaly"
+        ]
+      },
+      "time_window_days": 180,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "Chest X-ray/CT (hilar adenopathy)",
+        "ACE levels",
+        "Calcium levels",
+        "PFTs",
+        "Tissue biopsy (non-caseating granulomas)",
+        "Gallium scan/PET"
+      ],
+      "specialist": "Pulmonologist/Rheumatologist"
+    },
+    "ehlers-danlos_syndrome": {
+      "name": "Ehlers-Danlos Syndrome",
+      "icd10": "Q79.6",
+      "prevalence": "1 in 5,000",
+      "symptoms": {
+        "musculoskeletal": [
+          "joint hypermobility",
+          "dislocations",
+          "chronic pain",
+          "early arthritis"
+        ],
+        "skin": [
+          "hyperelastic skin",
+          "easy bruising",
+          "poor wound healing",
+          "atrophic scars"
+        ],
+        "vascular": [
+          "easy bruising",
+          "varicose veins",
+          "arterial rupture",
+          "organ rupture"
+        ],
+        "gi": [
+          "GERD",
+          "hiatal hernia",
+          "irritable bowel",
+          "rectal prolapse"
+        ],
+        "other": [
+          "POTS",
+          "chronic fatigue",
+          "TMJ dysfunction",
+          "dental problems"
+        ]
+      },
+      "time_window_days": 365,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "Beighton score",
+        "Genetic testing (COL5A1, COL3A1, etc.)",
+        "Skin biopsy",
+        "Echocardiogram",
+        "MRA for vascular type"
+      ],
+      "specialist": "Medical Geneticist/Rheumatologist"
+    },
+    "marfan_syndrome": {
+      "name": "Marfan Syndrome",
+      "icd10": "Q87.4",
+      "prevalence": "1 in 5,000",
+      "symptoms": {
+        "skeletal": [
+          "tall stature",
+          "arachnodactyly",
+          "pectus deformity",
+          "scoliosis",
+          "joint hypermobility"
+        ],
+        "ocular": [
+          "lens dislocation",
+          "myopia",
+          "retinal detachment",
+          "glaucoma"
+        ],
+        "cardiovascular": [
+          "aortic dilation",
+          "aortic dissection",
+          "mitral valve prolapse",
+          "arrhythmias"
+        ],
+        "pulmonary": [
+          "spontaneous pneumothorax",
+          "sleep apnea"
+        ],
+        "skin": [
+          "striae",
+          "hernias"
+        ]
+      },
+      "time_window_days": 365,
+      "min_symptoms": 3,
+      "diagnostic_tests": [
+        "Echocardiogram",
+        "Eye examination with slit lamp",
+        "FBN1 gene mutation analysis",
+        "CT/MRI for aortic measurements",
+        "Ghent criteria assessment"
+      ],
+      "specialist": "Medical Geneticist/Cardiologist"
+    }
+  }
+}

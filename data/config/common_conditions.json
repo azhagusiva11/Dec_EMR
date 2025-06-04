@@ -1,0 +1,572 @@
+{
+  "viral_gastroenteritis": {
+    "symptoms": ["fever", "vomiting", "diarrhea", "abdominal pain", "nausea", "dehydration"],
+    "typical_duration": 3,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "common_cold": {
+    "symptoms": ["runny nose", "sneezing", "cough", "sore throat", "mild fever", "nasal congestion"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "influenza": {
+    "symptoms": ["high fever", "body aches", "fatigue", "cough", "headache", "chills"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "UTI": {
+    "symptoms": ["burning urination", "frequent urination", "urgency", "lower abdominal pain", "cloudy urine"],
+    "typical_duration": 5,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "acute_bronchitis": {
+    "symptoms": ["persistent cough", "chest discomfort", "fatigue", "mild fever", "wheezing", "sputum production"],
+    "typical_duration": 10,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "strep_throat": {
+    "symptoms": ["severe sore throat", "fever", "swollen lymph nodes", "difficulty swallowing", "red throat"],
+    "typical_duration": 5,
+    "age_group": "child",
+    "severity": "moderate"
+  },
+  "otitis_media": {
+    "symptoms": ["ear pain", "fever", "hearing difficulty", "irritability", "ear discharge"],
+    "typical_duration": 5,
+    "age_group": "child",
+    "severity": "moderate"
+  },
+  "conjunctivitis": {
+    "symptoms": ["red eyes", "eye discharge", "itchy eyes", "watery eyes", "crusty eyelids"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "allergic_rhinitis": {
+    "symptoms": ["sneezing", "runny nose", "itchy nose", "nasal congestion", "post nasal drip"],
+    "typical_duration": 14,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "acute_sinusitis": {
+    "symptoms": ["facial pain", "nasal congestion", "thick nasal discharge", "headache", "reduced smell"],
+    "typical_duration": 10,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "migraine": {
+    "symptoms": ["severe headache", "nausea", "light sensitivity", "sound sensitivity", "aura"],
+    "typical_duration": 2,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "tension_headache": {
+    "symptoms": ["bilateral headache", "pressure sensation", "neck tension", "mild pain"],
+    "typical_duration": 1,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "GERD": {
+    "symptoms": ["heartburn", "acid reflux", "chest pain", "difficulty swallowing", "regurgitation"],
+    "typical_duration": 30,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "IBS": {
+    "symptoms": ["abdominal pain", "bloating", "diarrhea", "constipation", "gas"],
+    "typical_duration": 90,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "food_poisoning": {
+    "symptoms": ["nausea", "vomiting", "diarrhea", "abdominal cramps", "fever"],
+    "typical_duration": 2,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "dengue_fever": {
+    "symptoms": ["high fever", "severe headache", "eye pain", "joint pain", "rash", "mild bleeding"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "malaria": {
+    "symptoms": ["cyclical fever", "chills", "sweating", "headache", "nausea", "body aches"],
+    "typical_duration": 14,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "typhoid": {
+    "symptoms": ["prolonged fever", "headache", "weakness", "abdominal pain", "rose spots"],
+    "typical_duration": 21,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "chickenpox": {
+    "symptoms": ["itchy rash", "fever", "fatigue", "loss of appetite", "vesicular lesions"],
+    "typical_duration": 10,
+    "age_group": "child",
+    "severity": "mild"
+  },
+  "measles": {
+    "symptoms": ["high fever", "cough", "runny nose", "red eyes", "koplik spots", "rash"],
+    "typical_duration": 10,
+    "age_group": "child",
+    "severity": "moderate"
+  },
+  "mumps": {
+    "symptoms": ["parotid swelling", "fever", "headache", "muscle aches", "fatigue"],
+    "typical_duration": 10,
+    "age_group": "child",
+    "severity": "mild"
+  },
+  "hand_foot_mouth": {
+    "symptoms": ["fever", "sore throat", "mouth ulcers", "rash on hands", "rash on feet"],
+    "typical_duration": 7,
+    "age_group": "child",
+    "severity": "mild"
+  },
+  "bronchiolitis": {
+    "symptoms": ["cough", "wheezing", "difficulty breathing", "fever", "nasal congestion"],
+    "typical_duration": 7,
+    "age_group": "infant",
+    "severity": "moderate"
+  },
+  "croup": {
+    "symptoms": ["barking cough", "stridor", "hoarse voice", "difficulty breathing"],
+    "typical_duration": 5,
+    "age_group": "child",
+    "severity": "moderate"
+  },
+  "pneumonia": {
+    "symptoms": ["cough", "fever", "chest pain", "shortness of breath", "fatigue", "chills"],
+    "typical_duration": 14,
+    "age_group": "all",
+    "severity": "severe"
+  },
+  "asthma_exacerbation": {
+    "symptoms": ["wheezing", "shortness of breath", "chest tightness", "cough"],
+    "typical_duration": 3,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "acute_pharyngitis": {
+    "symptoms": ["sore throat", "difficulty swallowing", "fever", "swollen tonsils"],
+    "typical_duration": 5,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "gastritis": {
+    "symptoms": ["upper abdominal pain", "nausea", "vomiting", "bloating", "indigestion"],
+    "typical_duration": 7,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "constipation": {
+    "symptoms": ["infrequent bowel movements", "hard stools", "straining", "abdominal discomfort"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "hemorrhoids": {
+    "symptoms": ["rectal bleeding", "anal itching", "pain during bowel movements", "swelling"],
+    "typical_duration": 7,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "eczema": {
+    "symptoms": ["itchy skin", "red patches", "dry skin", "scaling", "crusting"],
+    "typical_duration": 30,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "psoriasis": {
+    "symptoms": ["red patches", "silvery scales", "dry skin", "itching", "burning"],
+    "typical_duration": 60,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "acne": {
+    "symptoms": ["pimples", "blackheads", "whiteheads", "oily skin", "scarring"],
+    "typical_duration": 180,
+    "age_group": "adolescent",
+    "severity": "mild"
+  },
+  "fungal_infection": {
+    "symptoms": ["itchy skin", "red rash", "scaling", "ring-shaped lesions"],
+    "typical_duration": 14,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "scabies": {
+    "symptoms": ["intense itching", "rash", "burrows", "night itching"],
+    "typical_duration": 30,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "urticaria": {
+    "symptoms": ["hives", "itching", "swelling", "red welts"],
+    "typical_duration": 1,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "contact_dermatitis": {
+    "symptoms": ["red rash", "itching", "burning", "blisters", "swelling"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "seborrheic_dermatitis": {
+    "symptoms": ["flaky skin", "dandruff", "red patches", "itching", "greasy scales"],
+    "typical_duration": 30,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "oral_thrush": {
+    "symptoms": ["white patches in mouth", "soreness", "difficulty swallowing", "loss of taste"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "gingivitis": {
+    "symptoms": ["bleeding gums", "swollen gums", "red gums", "bad breath"],
+    "typical_duration": 14,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "dental_abscess": {
+    "symptoms": ["severe toothache", "facial swelling", "fever", "bad taste"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "TMJ_disorder": {
+    "symptoms": ["jaw pain", "clicking jaw", "difficulty chewing", "headache"],
+    "typical_duration": 30,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "vertigo": {
+    "symptoms": ["dizziness", "spinning sensation", "nausea", "balance problems"],
+    "typical_duration": 3,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "motion_sickness": {
+    "symptoms": ["nausea", "vomiting", "dizziness", "sweating", "pallor"],
+    "typical_duration": 1,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "insomnia": {
+    "symptoms": ["difficulty sleeping", "frequent awakening", "daytime fatigue", "irritability"],
+    "typical_duration": 30,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "anxiety_disorder": {
+    "symptoms": ["excessive worry", "restlessness", "fatigue", "difficulty concentrating", "muscle tension"],
+    "typical_duration": 180,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "depression": {
+    "symptoms": ["persistent sadness", "loss of interest", "fatigue", "sleep changes", "appetite changes"],
+    "typical_duration": 180,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "panic_attack": {
+    "symptoms": ["palpitations", "sweating", "trembling", "shortness of breath", "chest pain"],
+    "typical_duration": 1,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "hypertension": {
+    "symptoms": ["headache", "dizziness", "blurred vision", "chest pain"],
+    "typical_duration": 365,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "hypotension": {
+    "symptoms": ["dizziness", "fainting", "blurred vision", "nausea", "fatigue"],
+    "typical_duration": 1,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "anemia": {
+    "symptoms": ["fatigue", "weakness", "pale skin", "shortness of breath", "dizziness"],
+    "typical_duration": 90,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "hypoglycemia": {
+    "symptoms": ["sweating", "trembling", "hunger", "confusion", "weakness"],
+    "typical_duration": 1,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "dehydration": {
+    "symptoms": ["thirst", "dry mouth", "dark urine", "dizziness", "fatigue"],
+    "typical_duration": 1,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "heat_exhaustion": {
+    "symptoms": ["heavy sweating", "weakness", "nausea", "headache", "muscle cramps"],
+    "typical_duration": 1,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "sunburn": {
+    "symptoms": ["red skin", "pain", "swelling", "blisters", "peeling"],
+    "typical_duration": 5,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "muscle_strain": {
+    "symptoms": ["muscle pain", "swelling", "limited movement", "muscle spasm"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "sprain": {
+    "symptoms": ["joint pain", "swelling", "bruising", "limited movement"],
+    "typical_duration": 14,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "back_pain": {
+    "symptoms": ["lower back pain", "stiffness", "muscle spasm", "limited movement"],
+    "typical_duration": 7,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "neck_pain": {
+    "symptoms": ["neck stiffness", "pain with movement", "headache", "shoulder pain"],
+    "typical_duration": 7,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "carpal_tunnel": {
+    "symptoms": ["hand numbness", "tingling", "weakness", "night pain"],
+    "typical_duration": 90,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "plantar_fasciitis": {
+    "symptoms": ["heel pain", "morning pain", "arch pain", "stiffness"],
+    "typical_duration": 60,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "bursitis": {
+    "symptoms": ["joint pain", "swelling", "warmth", "limited movement"],
+    "typical_duration": 14,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "tendinitis": {
+    "symptoms": ["tendon pain", "swelling", "stiffness", "weakness"],
+    "typical_duration": 30,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "osteoarthritis": {
+    "symptoms": ["joint pain", "stiffness", "swelling", "reduced flexibility"],
+    "typical_duration": 365,
+    "age_group": "elderly",
+    "severity": "moderate"
+  },
+  "gout": {
+    "symptoms": ["severe joint pain", "swelling", "redness", "warmth"],
+    "typical_duration": 7,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "kidney_stone": {
+    "symptoms": ["severe flank pain", "hematuria", "nausea", "vomiting"],
+    "typical_duration": 3,
+    "age_group": "adult",
+    "severity": "severe"
+  },
+  "gallstone": {
+    "symptoms": ["right upper abdominal pain", "nausea", "vomiting", "fever"],
+    "typical_duration": 1,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "appendicitis": {
+    "symptoms": ["right lower abdominal pain", "fever", "nausea", "vomiting", "loss of appetite"],
+    "typical_duration": 2,
+    "age_group": "all",
+    "severity": "severe"
+  },
+  "diverticulitis": {
+    "symptoms": ["left lower abdominal pain", "fever", "nausea", "constipation"],
+    "typical_duration": 7,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "peptic_ulcer": {
+    "symptoms": ["epigastric pain", "bloating", "nausea", "heartburn"],
+    "typical_duration": 30,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "pancreatitis": {
+    "symptoms": ["severe abdominal pain", "nausea", "vomiting", "fever"],
+    "typical_duration": 7,
+    "age_group": "adult",
+    "severity": "severe"
+  },
+  "cholecystitis": {
+    "symptoms": ["right upper abdominal pain", "fever", "nausea", "vomiting"],
+    "typical_duration": 3,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "peritonitis": {
+    "symptoms": ["severe abdominal pain", "rigidity", "fever", "nausea"],
+    "typical_duration": 3,
+    "age_group": "all",
+    "severity": "severe"
+  },
+  "DVT": {
+    "symptoms": ["leg swelling", "leg pain", "warmth", "redness"],
+    "typical_duration": 14,
+    "age_group": "adult",
+    "severity": "severe"
+  },
+  "varicose_veins": {
+    "symptoms": ["visible veins", "leg pain", "swelling", "heaviness"],
+    "typical_duration": 365,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "cellulitis": {
+    "symptoms": ["skin redness", "swelling", "warmth", "pain", "fever"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "moderate"
+  },
+  "impetigo": {
+    "symptoms": ["honey-crusted lesions", "blisters", "itching", "redness"],
+    "typical_duration": 7,
+    "age_group": "child",
+    "severity": "mild"
+  },
+  "folliculitis": {
+    "symptoms": ["small red bumps", "pustules", "itching", "tenderness"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "warts": {
+    "symptoms": ["raised lesions", "rough texture", "skin-colored bumps"],
+    "typical_duration": 180,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "herpes_simplex": {
+    "symptoms": ["painful blisters", "tingling", "burning", "ulcers"],
+    "typical_duration": 10,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "shingles": {
+    "symptoms": ["painful rash", "blisters", "burning pain", "itching"],
+    "typical_duration": 21,
+    "age_group": "adult",
+    "severity": "moderate"
+  },
+  "rosacea": {
+    "symptoms": ["facial redness", "flushing", "visible blood vessels", "bumps"],
+    "typical_duration": 365,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "vitiligo": {
+    "symptoms": ["white patches", "loss of skin color", "premature graying"],
+    "typical_duration": 365,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "alopecia": {
+    "symptoms": ["hair loss", "bald patches", "thinning hair"],
+    "typical_duration": 180,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "nail_fungus": {
+    "symptoms": ["thickened nails", "yellow nails", "brittle nails", "distorted shape"],
+    "typical_duration": 180,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "ingrown_nail": {
+    "symptoms": ["toe pain", "redness", "swelling", "infection"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "blepharitis": {
+    "symptoms": ["eyelid inflammation", "crusting", "burning", "tearing"],
+    "typical_duration": 30,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "stye": {
+    "symptoms": ["eyelid bump", "pain", "swelling", "tearing"],
+    "typical_duration": 7,
+    "age_group": "all",
+    "severity": "mild"
+  },
+  "dry_eye": {
+    "symptoms": ["eye dryness", "burning", "foreign body sensation", "blurred vision"],
+    "typical_duration": 90,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "glaucoma": {
+    "symptoms": ["eye pain", "headache", "halos", "vision loss"],
+    "typical_duration": 365,
+    "age_group": "adult",
+    "severity": "severe"
+  },
+  "cataract": {
+    "symptoms": ["blurred vision", "glare", "poor night vision", "faded colors"],
+    "typical_duration": 365,
+    "age_group": "elderly",
+    "severity": "moderate"
+  },
+  "macular_degeneration": {
+    "symptoms": ["central vision loss", "distorted vision", "dark spots"],
+    "typical_duration": 365,
+    "age_group": "elderly",
+    "severity": "severe"
+  },
+  "presbyopia": {
+    "symptoms": ["difficulty reading", "eye strain", "headaches"],
+    "typical_duration": 365,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "tinnitus": {
+    "symptoms": ["ringing in ears", "buzzing", "hissing", "roaring"],
+    "typical_duration": 90,
+    "age_group": "adult",
+    "severity": "mild"
+  },
+  "presbycusis": {
+    "symptoms": ["gradual hearing loss", "difficulty with high frequencies", "tinnitus"],
+    "typical_duration": 365,
+    "age_group": "elderly",
+    "severity": "mild"
+  }
+}

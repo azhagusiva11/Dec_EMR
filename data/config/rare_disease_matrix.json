@@ -1,0 +1,355 @@
+{
+  "patient_symptoms": {
+    "7e03908065": [
+      {
+        "symptom": "weakness",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "pain",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "seizures",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "weakness",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "vomiting",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "confusion",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "seizures",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "hypertension",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "weakness",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "vomiting",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "muscle weakness",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "seizures",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "confusion",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "hypertension",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "vomiting",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "seizures",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "hypertension",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "muscle weakness",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "muscle weakness",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "hypertension",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      },
+      {
+        "symptom": "seizures",
+        "date": "2025-05-25",
+        "full_text": "A 28-year-old male presents with the following symptoms over the past 5 months:\n\nAbdominal pain\n\nVomiting\n\nMuscle weakness\n\nHypertension\n\nSeizures\n\nConfusion\n\nDark-colored urine\n\nBased on this clinica"
+      }
+    ],
+    "7bf281df51": [
+      {
+        "symptom": "pain",
+        "date": "2025-05-25",
+        "full_text": "Patient reported right side chest pain, the patient is active runs for atleast 30 minutes everyday, and sudden pain in the ride side chest, no visual symptoms, bp and heart rate normal"
+      },
+      {
+        "symptom": "chest pain",
+        "date": "2025-05-25",
+        "full_text": "Patient reported right side chest pain, the patient is active runs for atleast 30 minutes everyday, and sudden pain in the ride side chest, no visual symptoms, bp and heart rate normal"
+      },
+      {
+        "symptom": "chest pain",
+        "date": "2025-05-25",
+        "full_text": "Patient reported right side chest pain, the patient is active runs for atleast 30 minutes everyday, and sudden pain in the ride side chest, no visual symptoms, bp and heart rate normal"
+      }
+    ],
+    "c03ec8568f": [
+      {
+        "symptom": "pain",
+        "date": "2025-05-25",
+        "full_text": "Pateint admitted with several abdominal pain, and then fever since last two days and night. "
+      },
+      {
+        "symptom": "fever",
+        "date": "2025-05-25",
+        "full_text": "Pateint admitted with several abdominal pain, and then fever since last two days and night. "
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "Pateint admitted with several abdominal pain, and then fever since last two days and night. "
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "Pateint admitted with several abdominal pain, and then fever since last two days and night. "
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "Pateint admitted with several abdominal pain, and then fever since last two days and night. "
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "Pateint admitted with several abdominal pain, and then fever since last two days and night. "
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "Pateint admitted with several abdominal pain, and then fever since last two days and night. "
+      },
+      {
+        "symptom": "abdominal pain",
+        "date": "2025-05-25",
+        "full_text": "Pateint admitted with several abdominal pain, and then fever since last two days and night. "
+      },
+      {
+        "symptom": "fever",
+        "date": "2025-05-25",
+        "full_text": "Pateint admitted with several abdominal pain, and then fever since last two days and night. "
+      },
+      {
+        "symptom": "tremor",
+        "date": "2025-05-25",
+        "full_text": "Patient experiencing hand tremors for past 2 weeks, especially when trying to write. Also feeling unusually tired lately. No other complaints."
+      },
+      {
+        "symptom": "tremor",
+        "date": "2025-05-25",
+        "full_text": "Patient experiencing hand tremors for past 2 weeks, especially when trying to write. Also feeling unusually tired lately. No other complaints."
+      },
+      {
+        "symptom": "tremor",
+        "date": "2025-05-25",
+        "full_text": "Patient experiencing hand tremors for past 2 weeks, especially when trying to write. Also feeling unusually tired lately. No other complaints."
+      },
+      {
+        "symptom": "tremor",
+        "date": "2025-05-25",
+        "full_text": "Tremor has worsened since last visit. Now having difficulty swallowing food and wife notices slurred speech. Also noticed yellowish discoloration of eyes since yesterday."
+      },
+      {
+        "symptom": "tremor",
+        "date": "2025-05-25",
+        "full_text": "Tremor has worsened since last visit. Now having difficulty swallowing food and wife notices slurred speech. Also noticed yellowish discoloration of eyes since yesterday."
+      },
+      {
+        "symptom": "tremor",
+        "date": "2025-05-25",
+        "full_text": "Tremor has worsened since last visit. Now having difficulty swallowing food and wife notices slurred speech. Also noticed yellowish discoloration of eyes since yesterday."
+      },
+      {
+        "symptom": "pain",
+        "date": "2025-05-26",
+        "full_text": "Patient admitted with high fever and vomitting since 2 days, and severe stomach pain since last week, but occasional."
+      },
+      {
+        "symptom": "fever",
+        "date": "2025-05-26",
+        "full_text": "Patient admitted with high fever and vomitting since 2 days, and severe stomach pain since last week, but occasional."
+      },
+      {
+        "symptom": "fever",
+        "date": "2025-05-26",
+        "full_text": "Patient admitted with high fever and vomitting since 2 days, and severe stomach pain since last week, but occasional."
+      },
+      {
+        "symptom": "pain",
+        "date": "2025-05-26",
+        "full_text": "Fever and diorrehea, vomiiting last two days, severe stmanch pain occassionalyt "
+      },
+      {
+        "symptom": "fever",
+        "date": "2025-05-26",
+        "full_text": "Fever and diorrehea, vomiiting last two days, severe stmanch pain occassionalyt "
+      },
+      {
+        "symptom": "fever",
+        "date": "2025-05-26",
+        "full_text": "Fever and diorrehea, vomiiting last two days, severe stmanch pain occassionalyt "
+      }
+    ],
+    "355af5f652": [
+      {
+        "symptom": "jaundice",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      },
+      {
+        "symptom": "pain",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      },
+      {
+        "symptom": "fatigue",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      },
+      {
+        "symptom": "fatigue",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      },
+      {
+        "symptom": "fatigue",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      },
+      {
+        "symptom": "fatigue",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      },
+      {
+        "symptom": "joint pain",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      },
+      {
+        "symptom": "fatigue",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      },
+      {
+        "symptom": "jaundice",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      },
+      {
+        "symptom": "fatigue",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      },
+      {
+        "symptom": "fatigue",
+        "date": "2025-05-27",
+        "full_text": "\nFatigue\n\nJoint pain\n\nSlight abdominal discomfort\n\nFerritin mildly elevated\n\nSlightly raised ALT/AST\n\nNo jaundice\n\nNo alcohol use"
+      }
+    ]
+  },
+  "disease_matches": {},
+  "diseases": {
+    "Wilson's Disease": {
+      "symptoms": [
+        "tremor",
+        "jaundice",
+        "kayser-fleischer rings",
+        "psychiatric symptoms"
+      ],
+      "tests": [
+        "Serum ceruloplasmin",
+        "24-hour urine copper",
+        "Liver biopsy"
+      ]
+    },
+    "Myasthenia Gravis": {
+      "symptoms": [
+        "ptosis",
+        "diplopia",
+        "muscle weakness",
+        "dysphagia"
+      ],
+      "tests": [
+        "Anti-AChR antibodies",
+        "Edrophonium test",
+        "EMG"
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-05-25T00:07:23.700301"
+  }
+}

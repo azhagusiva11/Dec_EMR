@@ -1,0 +1,868 @@
+{
+  "drugs": {
+    "paracetamol": {
+      "brand_names": ["Crocin", "Calpol", "Dolo", "Metacin", "Pyrigesic", "Tylenol", "Paracip", "Febrex"],
+      "category": "Analgesic/Antipyretic",
+      "max_daily_dose": "4g",
+      "common_doses": ["500mg", "650mg", "1000mg"],
+      "interactions": {
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "May increase INR with prolonged use"
+        },
+        "phenytoin": {
+          "severity": "minor",
+          "effect": "May affect phenytoin levels"
+        }
+      },
+      "contraindications": ["severe liver disease", "known hypersensitivity"],
+      "side_effects": ["rare: liver damage with overdose", "allergic reactions"],
+      "pregnancy_category": "B"
+    },
+    "amoxicillin": {
+      "brand_names": ["Mox", "Novamox", "Amoxil", "Wymox", "Zoxil", "Biomox"],
+      "category": "Antibiotic",
+      "max_daily_dose": "3g",
+      "common_doses": ["250mg", "500mg"],
+      "interactions": {
+        "methotrexate": {
+          "severity": "major",
+          "effect": "Decreased methotrexate clearance"
+        },
+        "oral_contraceptives": {
+          "severity": "moderate",
+          "effect": "May reduce contraceptive efficacy"
+        }
+      },
+      "contraindications": ["penicillin allergy", "infectious mononucleosis"],
+      "side_effects": ["diarrhea", "nausea", "rash"],
+      "pregnancy_category": "B"
+    },
+    "metformin": {
+      "brand_names": ["Glycomet", "Glucophage", "Obimet", "Carbophage", "Glyciphage", "Cetapin", "Walaphage"],
+      "category": "Antidiabetic",
+      "max_daily_dose": "2550mg",
+      "common_doses": ["500mg", "850mg", "1000mg"],
+      "interactions": {
+        "contrast_media": {
+          "severity": "major",
+          "effect": "Risk of lactic acidosis - stop 48h before"
+        },
+        "alcohol": {
+          "severity": "major",
+          "effect": "Increased risk of lactic acidosis"
+        }
+      },
+      "contraindications": ["renal impairment (eGFR <30)", "metabolic acidosis", "severe liver disease"],
+      "side_effects": ["GI upset", "diarrhea", "metallic taste"],
+      "pregnancy_category": "B"
+    },
+    "amlodipine": {
+      "brand_names": ["Amlip", "Amlopress", "Stamlo", "Norvasc", "Amlogard", "Amlokind"],
+      "category": "Antihypertensive",
+      "max_daily_dose": "10mg",
+      "common_doses": ["2.5mg", "5mg", "10mg"],
+      "interactions": {
+        "simvastatin": {
+          "severity": "moderate",
+          "effect": "Increased simvastatin levels - max 20mg simvastatin"
+        },
+        "cyclosporine": {
+          "severity": "moderate",
+          "effect": "Increased amlodipine levels"
+        }
+      },
+      "contraindications": ["cardiogenic shock", "severe aortic stenosis"],
+      "side_effects": ["ankle edema", "flushing", "headache"],
+      "pregnancy_category": "C"
+    },
+    "omeprazole": {
+      "brand_names": ["Omez", "Ocid", "Omecip", "Omesec", "Prilosec", "Omizac", "Protoloc"],
+      "category": "Proton Pump Inhibitor",
+      "max_daily_dose": "40mg",
+      "common_doses": ["20mg", "40mg"],
+      "interactions": {
+        "clopidogrel": {
+          "severity": "major",
+          "effect": "Reduced clopidogrel efficacy"
+        },
+        "digoxin": {
+          "severity": "moderate",
+          "effect": "Increased digoxin absorption"
+        }
+      },
+      "contraindications": ["hypersensitivity to PPI"],
+      "side_effects": ["headache", "diarrhea", "B12 deficiency with long use"],
+      "pregnancy_category": "C"
+    },
+    "atorvastatin": {
+      "brand_names": ["Atorva", "Lipitor", "Tonact", "Atorlip", "Aztor", "Storvas", "Lipicure"],
+      "category": "Statin",
+      "max_daily_dose": "80mg",
+      "common_doses": ["10mg", "20mg", "40mg"],
+      "interactions": {
+        "gemfibrozil": {
+          "severity": "major",
+          "effect": "Increased risk of myopathy"
+        },
+        "clarithromycin": {
+          "severity": "major",
+          "effect": "Increased statin levels"
+        }
+      },
+      "contraindications": ["active liver disease", "pregnancy", "lactation"],
+      "side_effects": ["myalgia", "elevated liver enzymes", "GI upset"],
+      "pregnancy_category": "X"
+    },
+    "aspirin": {
+      "brand_names": ["Ecosprin", "Disprin", "Aspro", "Loprin", "Delisprin", "ASA"],
+      "category": "Antiplatelet/NSAID",
+      "max_daily_dose": "4g (analgesic), 325mg (antiplatelet)",
+      "common_doses": ["75mg", "150mg", "325mg"],
+      "interactions": {
+        "warfarin": {
+          "severity": "major",
+          "effect": "Increased bleeding risk"
+        },
+        "methotrexate": {
+          "severity": "major",
+          "effect": "Decreased methotrexate clearance"
+        },
+        "ACE_inhibitors": {
+          "severity": "moderate",
+          "effect": "Reduced antihypertensive effect"
+        }
+      },
+      "contraindications": ["active bleeding", "peptic ulcer", "children with viral infections"],
+      "side_effects": ["GI bleeding", "tinnitus", "allergic reactions"],
+      "pregnancy_category": "D"
+    },
+    "cetirizine": {
+      "brand_names": ["Cetzine", "Alerid", "Okacet", "Zyrtec", "Allercet", "CTZ", "Incid"],
+      "category": "Antihistamine",
+      "max_daily_dose": "10mg",
+      "common_doses": ["5mg", "10mg"],
+      "interactions": {
+        "alcohol": {
+          "severity": "moderate",
+          "effect": "Increased sedation"
+        },
+        "theophylline": {
+          "severity": "minor",
+          "effect": "Slight decrease in cetirizine clearance"
+        }
+      },
+      "contraindications": ["severe renal impairment"],
+      "side_effects": ["drowsiness", "dry mouth", "fatigue"],
+      "pregnancy_category": "B"
+    },
+    "azithromycin": {
+      "brand_names": ["Azithral", "Zithromax", "Azee", "Azicip", "Aziwin", "Zady", "Trulimax"],
+      "category": "Antibiotic",
+      "max_daily_dose": "500mg",
+      "common_doses": ["250mg", "500mg"],
+      "interactions": {
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "Increased INR"
+        },
+        "digoxin": {
+          "severity": "moderate",
+          "effect": "Increased digoxin levels"
+        }
+      },
+      "contraindications": ["hypersensitivity to macrolides", "cholestatic jaundice history"],
+      "side_effects": ["GI upset", "QT prolongation", "hepatotoxicity"],
+      "pregnancy_category": "B"
+    },
+    "pantoprazole": {
+      "brand_names": ["Pan", "Pantop", "Pantodac", "Protonix", "Panzol", "Pantocid", "P-40"],
+      "category": "Proton Pump Inhibitor",
+      "max_daily_dose": "40mg",
+      "common_doses": ["20mg", "40mg"],
+      "interactions": {
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "May increase INR"
+        },
+        "ketoconazole": {
+          "severity": "moderate",
+          "effect": "Reduced antifungal absorption"
+        }
+      },
+      "contraindications": ["hypersensitivity to PPI"],
+      "side_effects": ["headache", "dizziness", "abdominal pain"],
+      "pregnancy_category": "B"
+    },
+    "ciprofloxacin": {
+      "brand_names": ["Ciplox", "Cifran", "Ciprobid", "Ciprodac", "Zoxan", "Quintor"],
+      "category": "Antibiotic",
+      "max_daily_dose": "1500mg",
+      "common_doses": ["250mg", "500mg", "750mg"],
+      "interactions": {
+        "theophylline": {
+          "severity": "major",
+          "effect": "Increased theophylline levels"
+        },
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "Increased INR"
+        },
+        "antacids": {
+          "severity": "moderate",
+          "effect": "Reduced ciprofloxacin absorption"
+        }
+      },
+      "contraindications": ["tendon disorders", "myasthenia gravis", "children"],
+      "side_effects": ["GI upset", "tendinitis", "CNS effects"],
+      "pregnancy_category": "C"
+    },
+    "levothyroxine": {
+      "brand_names": ["Thyronorm", "Eltroxin", "Thyrox", "Thyrofit", "Lethyrox"],
+      "category": "Thyroid Hormone",
+      "max_daily_dose": "300mcg",
+      "common_doses": ["25mcg", "50mcg", "75mcg", "100mcg"],
+      "interactions": {
+        "iron": {
+          "severity": "moderate",
+          "effect": "Reduced absorption - separate by 4 hours"
+        },
+        "calcium": {
+          "severity": "moderate",
+          "effect": "Reduced absorption - separate by 4 hours"
+        },
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "Increased anticoagulant effect"
+        }
+      },
+      "contraindications": ["untreated adrenal insufficiency", "acute MI", "thyrotoxicosis"],
+      "side_effects": ["palpitations", "weight loss", "heat intolerance"],
+      "pregnancy_category": "A"
+    },
+    "diclofenac": {
+      "brand_names": ["Voveran", "Voltaren", "Diclomol", "Diclogesic", "Reactin", "Dylect"],
+      "category": "NSAID",
+      "max_daily_dose": "150mg",
+      "common_doses": ["25mg", "50mg", "75mg"],
+      "interactions": {
+        "lithium": {
+          "severity": "major",
+          "effect": "Increased lithium levels"
+        },
+        "methotrexate": {
+          "severity": "major",
+          "effect": "Increased methotrexate toxicity"
+        },
+        "aspirin": {
+          "severity": "moderate",
+          "effect": "Increased GI bleeding risk"
+        }
+      },
+      "contraindications": ["active GI bleed", "severe heart failure", "last trimester pregnancy"],
+      "side_effects": ["GI upset", "elevated liver enzymes", "renal impairment"],
+      "pregnancy_category": "C"
+    },
+    "montelukast": {
+      "brand_names": ["Montair", "Singulair", "Montek", "Romilast", "Montelo", "Lasma"],
+      "category": "Leukotriene Antagonist",
+      "max_daily_dose": "10mg",
+      "common_doses": ["4mg", "5mg", "10mg"],
+      "interactions": {
+        "phenobarbital": {
+          "severity": "moderate",
+          "effect": "Reduced montelukast levels"
+        }
+      },
+      "contraindications": ["hypersensitivity"],
+      "side_effects": ["headache", "behavioral changes", "sleep disturbances"],
+      "pregnancy_category": "B"
+    },
+    "losartan": {
+      "brand_names": ["Losar", "Covance", "Losacar", "Repace", "Losium", "Losakind"],
+      "category": "ARB",
+      "max_daily_dose": "100mg",
+      "common_doses": ["25mg", "50mg", "100mg"],
+      "interactions": {
+        "potassium": {
+          "severity": "major",
+          "effect": "Hyperkalemia risk"
+        },
+        "lithium": {
+          "severity": "moderate",
+          "effect": "Increased lithium levels"
+        },
+        "NSAIDs": {
+          "severity": "moderate",
+          "effect": "Reduced antihypertensive effect"
+        }
+      },
+      "contraindications": ["pregnancy", "bilateral renal artery stenosis", "hyperkalemia"],
+      "side_effects": ["dizziness", "hyperkalemia", "cough (less than ACE-I)"],
+      "pregnancy_category": "D"
+    },
+    "glimepiride": {
+      "brand_names": ["Amaryl", "Glimestar", "Glimpid", "Glimy", "Glimisave", "Zoryl"],
+      "category": "Sulfonylurea",
+      "max_daily_dose": "8mg",
+      "common_doses": ["1mg", "2mg", "3mg", "4mg"],
+      "interactions": {
+        "beta_blockers": {
+          "severity": "moderate",
+          "effect": "Masks hypoglycemia symptoms"
+        },
+        "fluconazole": {
+          "severity": "moderate",
+          "effect": "Increased glimepiride effect"
+        }
+      },
+      "contraindications": ["type 1 diabetes", "diabetic ketoacidosis", "severe renal/hepatic impairment"],
+      "side_effects": ["hypoglycemia", "weight gain", "GI upset"],
+      "pregnancy_category": "C"
+    },
+    "cefixime": {
+      "brand_names": ["Taxim-O", "Cefspan", "Zifi", "Mahacef", "Cefix", "Topcef"],
+      "category": "Antibiotic",
+      "max_daily_dose": "400mg",
+      "common_doses": ["100mg", "200mg", "400mg"],
+      "interactions": {
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "Increased INR"
+        },
+        "probenecid": {
+          "severity": "moderate",
+          "effect": "Increased cefixime levels"
+        }
+      },
+      "contraindications": ["cephalosporin allergy"],
+      "side_effects": ["diarrhea", "nausea", "abdominal pain"],
+      "pregnancy_category": "B"
+    },
+    "ranitidine": {
+      "brand_names": ["Zinetac", "Aciloc", "Rantac", "Histac", "Ranidom"],
+      "category": "H2 Blocker",
+      "max_daily_dose": "300mg",
+      "common_doses": ["150mg", "300mg"],
+      "interactions": {
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "May increase INR"
+        },
+        "ketoconazole": {
+          "severity": "moderate",
+          "effect": "Reduced antifungal absorption"
+        }
+      },
+      "contraindications": ["hypersensitivity"],
+      "side_effects": ["headache", "dizziness", "constipation"],
+      "pregnancy_category": "B"
+    },
+    "domperidone": {
+      "brand_names": ["Domstal", "Vomistop", "Motilium", "Domperi", "Vomidon", "Domcet"],
+      "category": "Antiemetic",
+      "max_daily_dose": "30mg",
+      "common_doses": ["10mg"],
+      "interactions": {
+        "ketoconazole": {
+          "severity": "major",
+          "effect": "Increased domperidone levels - QT prolongation"
+        },
+        "erythromycin": {
+          "severity": "major",
+          "effect": "Increased QT prolongation risk"
+        }
+      },
+      "contraindications": ["prolactinoma", "cardiac conduction disorders", "GI bleeding"],
+      "side_effects": ["dry mouth", "headache", "galactorrhea"],
+      "pregnancy_category": "C"
+    },
+    "levofloxacin": {
+      "brand_names": ["Levomac", "Levoflox", "Levoday", "Lquin", "Glevo", "Levocin"],
+      "category": "Antibiotic",
+      "max_daily_dose": "750mg",
+      "common_doses": ["250mg", "500mg", "750mg"],
+      "interactions": {
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "Increased INR"
+        },
+        "antacids": {
+          "severity": "moderate",
+          "effect": "Reduced absorption - separate by 2 hours"
+        },
+        "NSAIDs": {
+          "severity": "moderate",
+          "effect": "Increased seizure risk"
+        }
+      },
+      "contraindications": ["tendon disorders", "myasthenia gravis", "QT prolongation"],
+      "side_effects": ["GI upset", "tendinitis", "photosensitivity"],
+      "pregnancy_category": "C"
+    },
+    "rosuvastatin": {
+      "brand_names": ["Rosuvas", "Crestor", "Rozat", "Rozucor", "Rosulip", "Rosufit"],
+      "category": "Statin",
+      "max_daily_dose": "40mg",
+      "common_doses": ["5mg", "10mg", "20mg", "40mg"],
+      "interactions": {
+        "cyclosporine": {
+          "severity": "major",
+          "effect": "Increased rosuvastatin levels"
+        },
+        "gemfibrozil": {
+          "severity": "major",
+          "effect": "Increased myopathy risk"
+        },
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "Increased INR"
+        }
+      },
+      "contraindications": ["active liver disease", "pregnancy", "lactation"],
+      "side_effects": ["myalgia", "headache", "abdominal pain"],
+      "pregnancy_category": "X"
+    },
+    "gabapentin": {
+      "brand_names": ["Gabapin", "Neurontin", "Gapitas", "Gabapax", "Gabantin"],
+      "category": "Anticonvulsant/Neuropathic",
+      "max_daily_dose": "3600mg",
+      "common_doses": ["100mg", "300mg", "400mg"],
+      "interactions": {
+        "antacids": {
+          "severity": "moderate",
+          "effect": "Reduced gabapentin absorption"
+        },
+        "morphine": {
+          "severity": "moderate",
+          "effect": "Increased gabapentin levels"
+        }
+      },
+      "contraindications": ["hypersensitivity"],
+      "side_effects": ["dizziness", "somnolence", "peripheral edema"],
+      "pregnancy_category": "C"
+    },
+    "insulin_glargine": {
+      "brand_names": ["Lantus", "Basalog", "Glaritus", "Basugine", "Basalin"],
+      "category": "Long-acting Insulin",
+      "max_daily_dose": "Individualized",
+      "common_doses": ["10-80 units daily"],
+      "interactions": {
+        "beta_blockers": {
+          "severity": "moderate",
+          "effect": "Masks hypoglycemia symptoms"
+        },
+        "ACE_inhibitors": {
+          "severity": "moderate",
+          "effect": "Increased hypoglycemia risk"
+        }
+      },
+      "contraindications": ["hypoglycemia", "hypersensitivity"],
+      "side_effects": ["hypoglycemia", "injection site reactions", "weight gain"],
+      "pregnancy_category": "C"
+    },
+    "escitalopram": {
+      "brand_names": ["Nexito", "Cipralex", "Stalopam", "Feliz-S", "Escitrac", "Rexipra"],
+      "category": "SSRI",
+      "max_daily_dose": "20mg",
+      "common_doses": ["5mg", "10mg", "20mg"],
+      "interactions": {
+        "MAOIs": {
+          "severity": "major",
+          "effect": "Serotonin syndrome - contraindicated"
+        },
+        "NSAIDs": {
+          "severity": "moderate",
+          "effect": "Increased bleeding risk"
+        },
+        "tramadol": {
+          "severity": "major",
+          "effect": "Serotonin syndrome risk"
+        }
+      },
+      "contraindications": ["MAO inhibitor use", "QT prolongation"],
+      "side_effects": ["nausea", "insomnia", "sexual dysfunction"],
+      "pregnancy_category": "C"
+    },
+    "vitamin_d3": {
+      "brand_names": ["Calcirol", "D-Rise", "Uprise-D3", "Calcimax", "Tayo", "Arachitol"],
+      "category": "Vitamin Supplement",
+      "max_daily_dose": "60000 IU weekly",
+      "common_doses": ["1000 IU", "2000 IU", "60000 IU"],
+      "interactions": {
+        "digoxin": {
+          "severity": "moderate",
+          "effect": "Hypercalcemia may potentiate digoxin"
+        },
+        "thiazides": {
+          "severity": "moderate",
+          "effect": "Increased hypercalcemia risk"
+        }
+      },
+      "contraindications": ["hypercalcemia", "hypervitaminosis D"],
+      "side_effects": ["hypercalcemia", "nausea", "constipation"],
+      "pregnancy_category": "C"
+    },
+    "folic_acid": {
+      "brand_names": ["Folvite", "Folic", "Folvin", "Folart", "Vitafol"],
+      "category": "Vitamin B9",
+      "max_daily_dose": "5mg",
+      "common_doses": ["5mg", "1mg", "0.4mg"],
+      "interactions": {
+        "phenytoin": {
+          "severity": "moderate",
+          "effect": "Reduced phenytoin levels"
+        },
+        "methotrexate": {
+          "severity": "major",
+          "effect": "Antagonizes methotrexate effect"
+        }
+      },
+      "contraindications": ["untreated B12 deficiency"],
+      "side_effects": ["rarely GI upset", "allergic reactions"],
+      "pregnancy_category": "A"
+    },
+    "telmisartan": {
+      "brand_names": ["Telma", "Telmikind", "Telsar", "Telista", "Cresar", "Telday"],
+      "category": "ARB",
+      "max_daily_dose": "80mg",
+      "common_doses": ["20mg", "40mg", "80mg"],
+      "interactions": {
+        "lithium": {
+          "severity": "moderate",
+          "effect": "Increased lithium levels"
+        },
+        "potassium": {
+          "severity": "major",
+          "effect": "Hyperkalemia risk"
+        },
+        "NSAIDs": {
+          "severity": "moderate",
+          "effect": "Reduced antihypertensive effect"
+        }
+      },
+      "contraindications": ["pregnancy", "bilateral renal artery stenosis"],
+      "side_effects": ["hyperkalemia", "dizziness", "hypotension"],
+      "pregnancy_category": "D"
+    },
+    "metronidazole": {
+      "brand_names": ["Flagyl", "Metrogyl", "Aristogyl", "Metron", "Metronorm", "Aldezol"],
+      "category": "Antibiotic/Antiprotozoal",
+      "max_daily_dose": "4g",
+      "common_doses": ["200mg", "400mg", "500mg"],
+      "interactions": {
+        "alcohol": {
+          "severity": "major",
+          "effect": "Disulfiram-like reaction"
+        },
+        "warfarin": {
+          "severity": "major",
+          "effect": "Significantly increased INR"
+        },
+        "lithium": {
+          "severity": "moderate",
+          "effect": "Increased lithium levels"
+        }
+      },
+      "contraindications": ["first trimester pregnancy", "disulfiram use"],
+      "side_effects": ["metallic taste", "nausea", "disulfiram reaction"],
+      "pregnancy_category": "B"
+    },
+    "tramadol": {
+      "brand_names": ["Ultracet", "Tramacip", "Tramazac", "Contramal", "Dolozam", "Tramasure"],
+      "category": "Opioid Analgesic",
+      "max_daily_dose": "400mg",
+      "common_doses": ["50mg", "100mg"],
+      "interactions": {
+        "SSRIs": {
+          "severity": "major",
+          "effect": "Serotonin syndrome risk"
+        },
+        "MAOIs": {
+          "severity": "major",
+          "effect": "Contraindicated - serotonin syndrome"
+        },
+        "carbamazepine": {
+          "severity": "moderate",
+          "effect": "Reduced tramadol efficacy"
+        }
+      },
+      "contraindications": ["seizure disorders", "MAO inhibitor use", "severe respiratory depression"],
+      "side_effects": ["nausea", "dizziness", "constipation", "seizures"],
+      "pregnancy_category": "C"
+    },
+    "doxycycline": {
+      "brand_names": ["Doxt", "Doxy-1", "Microdox", "Biodoxi", "Doxicip", "Ceedox"],
+      "category": "Antibiotic",
+      "max_daily_dose": "200mg",
+      "common_doses": ["100mg"],
+      "interactions": {
+        "antacids": {
+          "severity": "major",
+          "effect": "Significantly reduced absorption"
+        },
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "Increased INR"
+        },
+        "isotretinoin": {
+          "severity": "major",
+          "effect": "Increased intracranial pressure"
+        }
+      },
+      "contraindications": ["pregnancy", "children <8 years", "severe hepatic impairment"],
+      "side_effects": ["photosensitivity", "GI upset", "esophagitis"],
+      "pregnancy_category": "D"
+    },
+    "salbutamol": {
+      "brand_names": ["Asthalin", "Derihaler", "Ventolin", "Salbair", "Salbutamol", "Levolin"],
+      "category": "Bronchodilator",
+      "max_daily_dose": "32mg (oral), inhaled as needed",
+      "common_doses": ["2mg", "4mg", "100mcg/puff"],
+      "interactions": {
+        "beta_blockers": {
+          "severity": "major",
+          "effect": "Antagonizes bronchodilation"
+        },
+        "digoxin": {
+          "severity": "moderate",
+          "effect": "Reduced digoxin levels"
+        }
+      },
+      "contraindications": ["hypersensitivity"],
+      "side_effects": ["tremor", "palpitations", "headache"],
+      "pregnancy_category": "C"
+    },
+    "clopidogrel": {
+      "brand_names": ["Plavix", "Clopitab", "Clopilet", "Deplatt", "Clavix", "Plagril"],
+      "category": "Antiplatelet",
+      "max_daily_dose": "75mg",
+      "common_doses": ["75mg"],
+      "interactions": {
+        "omeprazole": {
+          "severity": "major",
+          "effect": "Reduced antiplatelet effect"
+        },
+        "warfarin": {
+          "severity": "major",
+          "effect": "Increased bleeding risk"
+        },
+        "NSAIDs": {
+          "severity": "moderate",
+          "effect": "Increased bleeding risk"
+        }
+      },
+      "contraindications": ["active bleeding", "severe hepatic impairment"],
+      "side_effects": ["bleeding", "bruising", "rash"],
+      "pregnancy_category": "B"
+    },
+    "furosemide": {
+      "brand_names": ["Lasix", "Frusenex", "Frusemide", "Lasix", "Frusix"],
+      "category": "Loop Diuretic",
+      "max_daily_dose": "600mg",
+      "common_doses": ["20mg", "40mg", "80mg"],
+      "interactions": {
+        "lithium": {
+          "severity": "major",
+          "effect": "Increased lithium toxicity"
+        },
+        "digoxin": {
+          "severity": "major",
+          "effect": "Hypokalemia increases digoxin toxicity"
+        },
+        "NSAIDs": {
+          "severity": "moderate",
+          "effect": "Reduced diuretic effect"
+        }
+      },
+      "contraindications": ["anuria", "severe hypokalemia"],
+      "side_effects": ["hypokalemia", "hyponatremia", "ototoxicity"],
+      "pregnancy_category": "C"
+    },
+    "alprazolam": {
+      "brand_names": ["Alprax", "Restyl", "Trika", "Zolax", "Alzolam", "Nexito Plus"],
+      "category": "Benzodiazepine",
+      "max_daily_dose": "4mg",
+      "common_doses": ["0.25mg", "0.5mg", "1mg"],
+      "interactions": {
+        "ketoconazole": {
+          "severity": "major",
+          "effect": "Increased alprazolam levels"
+        },
+        "alcohol": {
+          "severity": "major",
+          "effect": "Increased CNS depression"
+        },
+        "opioids": {
+          "severity": "major",
+          "effect": "Respiratory depression risk"
+        }
+      },
+      "contraindications": ["acute angle glaucoma", "severe respiratory depression"],
+      "side_effects": ["sedation", "dependence", "amnesia"],
+      "pregnancy_category": "D"
+    },
+    "prednisolone": {
+      "brand_names": ["Wysolone", "Omnacortil", "Predone", "Hostacortin", "Deltacortil"],
+      "category": "Corticosteroid",
+      "max_daily_dose": "60mg",
+      "common_doses": ["5mg", "10mg", "20mg", "40mg"],
+      "interactions": {
+        "NSAIDs": {
+          "severity": "moderate",
+          "effect": "Increased GI bleeding risk"
+        },
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "Variable effect on INR"
+        },
+        "insulin": {
+          "severity": "moderate",
+          "effect": "Increased blood glucose"
+        }
+      },
+      "contraindications": ["systemic fungal infections", "live vaccines"],
+      "side_effects": ["weight gain", "osteoporosis", "hyperglycemia", "mood changes"],
+      "pregnancy_category": "C"
+    },
+    "calcium_carbonate": {
+      "brand_names": ["Shelcal", "Calcimax", "Calcitas", "Gemcal", "Macalvit", "CCM"],
+      "category": "Calcium Supplement",
+      "max_daily_dose": "2500mg elemental calcium",
+      "common_doses": ["500mg", "1000mg", "1250mg"],
+      "interactions": {
+        "levothyroxine": {
+          "severity": "moderate",
+          "effect": "Reduced thyroid hormone absorption"
+        },
+        "iron": {
+          "severity": "moderate",
+          "effect": "Reduced iron absorption"
+        },
+        "tetracyclines": {
+          "severity": "major",
+          "effect": "Reduced antibiotic absorption"
+        }
+      },
+      "contraindications": ["hypercalcemia", "severe renal impairment"],
+      "side_effects": ["constipation", "gas", "hypercalcemia"],
+      "pregnancy_category": "C"
+    },
+    "rabeprazole": {
+      "brand_names": ["Razo", "Rablet", "Rabeloc", "Rabium", "Happi", "Prazole"],
+      "category": "Proton Pump Inhibitor",
+      "max_daily_dose": "20mg",
+      "common_doses": ["10mg", "20mg"],
+      "interactions": {
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "May increase INR"
+        },
+        "ketoconazole": {
+          "severity": "moderate",
+          "effect": "Reduced antifungal absorption"
+        }
+      },
+      "contraindications": ["hypersensitivity to PPIs"],
+      "side_effects": ["headache", "diarrhea", "abdominal pain"],
+      "pregnancy_category": "B"
+    },
+    "sertraline": {
+      "brand_names": ["Daxid", "Serlift", "Zoloft", "Serta", "Sertraline", "Sertima"],
+      "category": "SSRI",
+      "max_daily_dose": "200mg",
+      "common_doses": ["25mg", "50mg", "100mg"],
+      "interactions": {
+        "MAOIs": {
+          "severity": "major",
+          "effect": "Serotonin syndrome - contraindicated"
+        },
+        "pimozide": {
+          "severity": "major",
+          "effect": "QT prolongation - contraindicated"
+        },
+        "NSAIDs": {
+          "severity": "moderate",
+          "effect": "Increased bleeding risk"
+        }
+      },
+      "contraindications": ["MAO inhibitor use", "pimozide use"],
+      "side_effects": ["nausea", "diarrhea", "sexual dysfunction", "insomnia"],
+      "pregnancy_category": "C"
+    },
+    "vitamin_b_complex": {
+      "brand_names": ["Becosules", "Neurobion", "Polybion", "Cobadex", "Beplex"],
+      "category": "Vitamin Supplement",
+      "max_daily_dose": "As directed",
+      "common_doses": ["1-2 tablets daily"],
+      "interactions": {
+        "levodopa": {
+          "severity": "moderate",
+          "effect": "B6 may reduce levodopa effect"
+        }
+      },
+      "contraindications": ["hypersensitivity"],
+      "side_effects": ["rare allergic reactions", "nausea"],
+      "pregnancy_category": "A"
+    },
+    "aceclofenac": {
+      "brand_names": ["Zerodol", "Hifenac", "Acenac", "Movon", "Dolowin", "Aceclo"],
+      "category": "NSAID",
+      "max_daily_dose": "200mg",
+      "common_doses": ["100mg"],
+      "interactions": {
+        "lithium": {
+          "severity": "major",
+          "effect": "Increased lithium levels"
+        },
+        "methotrexate": {
+          "severity": "major",
+          "effect": "Increased methotrexate toxicity"
+        },
+        "warfarin": {
+          "severity": "moderate",
+          "effect": "Increased bleeding risk"
+        }
+      },
+      "contraindications": ["active GI bleeding", "severe heart failure", "severe renal impairment"],
+      "side_effects": ["GI upset", "dizziness", "elevated liver enzymes"],
+      "pregnancy_category": "C"
+    }
+  },
+  "interaction_checker_rules": {
+    "major_interactions": [
+      {
+        "drug1": "warfarin",
+        "drug2": "aspirin",
+        "message": "Major bleeding risk - avoid combination or monitor INR closely"
+      },
+      {
+        "drug1": "metformin",
+        "drug2": "contrast_media",
+        "message": "Stop metformin 48h before and after contrast procedures"
+      },
+      {
+        "drug1": "clopidogrel",
+        "drug2": "omeprazole",
+        "message": "Reduced antiplatelet effect - use pantoprazole instead"
+      },
+      {
+        "drug1": "tramadol",
+        "drug2": "SSRI",
+        "message": "High risk of serotonin syndrome - use alternative analgesic"
+      },
+      {
+        "drug1": "methotrexate",
+        "drug2": "NSAIDs",
+        "message": "Increased methotrexate toxicity - avoid combination"
+      }
+    ],
+    "pregnancy_categories": {
+      "A": "Safe in pregnancy",
+      "B": "Probably safe - no human studies showing risk",
+      "C": "Use only if benefit outweighs risk",
+      "D": "Positive evidence of risk - use only in life-threatening situations",
+      "X": "Contraindicated in pregnancy"
+    }
+  }
+}

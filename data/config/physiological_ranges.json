@@ -1,0 +1,243 @@
+{
+  "heart_rate": {
+    "newborn": {
+      "range": [120, 160],
+      "critical_low": 90,
+      "critical_high": 180
+    },
+    "infant": {
+      "range": [100, 150],
+      "critical_low": 80,
+      "critical_high": 170
+    },
+    "toddler": {
+      "range": [90, 140],
+      "critical_low": 70,
+      "critical_high": 160
+    },
+    "preschool": {
+      "range": [80, 120],
+      "critical_low": 65,
+      "critical_high": 140
+    },
+    "school_age": {
+      "range": [75, 115],
+      "critical_low": 60,
+      "critical_high": 130
+    },
+    "adolescent": {
+      "range": [60, 105],
+      "critical_low": 50,
+      "critical_high": 120
+    },
+    "adult": {
+      "range": [60, 100],
+      "critical_low": 40,
+      "critical_high": 150
+    },
+    "elderly": {
+      "range": [60, 100],
+      "critical_low": 45,
+      "critical_high": 140
+    },
+    "athlete": {
+      "range": [40, 60],
+      "critical_low": 35,
+      "critical_high": 100
+    }
+  },
+  "blood_pressure": {
+    "newborn": {
+      "range": {
+        "systolic": [60, 90],
+        "diastolic": [30, 60]
+      },
+      "critical_low": {
+        "systolic": 50,
+        "diastolic": 25
+      },
+      "critical_high": {
+        "systolic": 100,
+        "diastolic": 70
+      }
+    },
+    "infant": {
+      "range": {
+        "systolic": [70, 100],
+        "diastolic": [40, 65]
+      },
+      "critical_low": {
+        "systolic": 60,
+        "diastolic": 30
+      },
+      "critical_high": {
+        "systolic": 110,
+        "diastolic": 75
+      }
+    },
+    "toddler": {
+      "range": {
+        "systolic": [80, 110],
+        "diastolic": [50, 70]
+      },
+      "critical_low": {
+        "systolic": 70,
+        "diastolic": 40
+      },
+      "critical_high": {
+        "systolic": 120,
+        "diastolic": 80
+      }
+    },
+    "preschool": {
+      "range": {
+        "systolic": [85, 115],
+        "diastolic": [55, 75]
+      },
+      "critical_low": {
+        "systolic": 75,
+        "diastolic": 45
+      },
+      "critical_high": {
+        "systolic": 125,
+        "diastolic": 85
+      }
+    },
+    "school_age": {
+      "range": {
+        "systolic": [90, 120],
+        "diastolic": [60, 80]
+      },
+      "critical_low": {
+        "systolic": 80,
+        "diastolic": 50
+      },
+      "critical_high": {
+        "systolic": 130,
+        "diastolic": 90
+      }
+    },
+    "adolescent": {
+      "range": {
+        "systolic": [95, 125],
+        "diastolic": [60, 85]
+      },
+      "critical_low": {
+        "systolic": 85,
+        "diastolic": 50
+      },
+      "critical_high": {
+        "systolic": 140,
+        "diastolic": 95
+      }
+    },
+    "adult": {
+      "range": {
+        "systolic": [90, 130],
+        "diastolic": [60, 90]
+      },
+      "critical_low": {
+        "systolic": 70,
+        "diastolic": 40
+      },
+      "critical_high": {
+        "systolic": 180,
+        "diastolic": 120
+      }
+    },
+    "elderly": {
+      "range": {
+        "systolic": [90, 140],
+        "diastolic": [60, 90]
+      },
+      "critical_low": {
+        "systolic": 80,
+        "diastolic": 45
+      },
+      "critical_high": {
+        "systolic": 180,
+        "diastolic": 110
+      }
+    },
+    "pregnant": {
+      "range": {
+        "systolic": [90, 120],
+        "diastolic": [60, 80]
+      },
+      "critical_low": {
+        "systolic": 70,
+        "diastolic": 40
+      },
+      "critical_high": {
+        "systolic": 160,
+        "diastolic": 110
+      }
+    }
+  },
+  "temperature": {
+    "default": {
+      "range_c": [36.1, 37.9],
+      "range_f": [97.0, 100.2],
+      "critical_high_c": 40.0,
+      "critical_low_c": 34.0,
+      "critical_high_f": 104.0,
+      "critical_low_f": 93.2
+    }
+  },
+  "respiratory_rate": {
+    "newborn": {
+      "range": [30, 60],
+      "critical_low": 20,
+      "critical_high": 70
+    },
+    "infant": {
+      "range": [25, 50],
+      "critical_low": 20,
+      "critical_high": 60
+    },
+    "toddler": {
+      "range": [20, 40],
+      "critical_low": 15,
+      "critical_high": 45
+    },
+    "preschool": {
+      "range": [20, 30],
+      "critical_low": 15,
+      "critical_high": 40
+    },
+    "school_age": {
+      "range": [18, 25],
+      "critical_low": 12,
+      "critical_high": 35
+    },
+    "adolescent": {
+      "range": [12, 20],
+      "critical_low": 10,
+      "critical_high": 30
+    },
+    "adult": {
+      "range": [12, 20],
+      "critical_low": 8,
+      "critical_high": 30
+    },
+    "elderly": {
+      "range": [12, 25],
+      "critical_low": 10,
+      "critical_high": 35
+    }
+  },
+  "oxygen_saturation": {
+    "default": {
+      "range": [95, 100],
+      "critical_low": 90
+    },
+    "high_altitude": {
+      "range": [92, 100],
+      "critical_low": 88
+    },
+    "copd": {
+      "range": [88, 92],
+      "critical_low": 85
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "description": "Enhanced watchlist for longitudinal rare disease detection with strict time requirements",
+  "version": "2.0",
+  "last_updated": "2024-12-26",
+  "detection_rules": {
+    "min_visits_required": 2,
+    "min_timespan_days": 7,
+    "confidence_threshold": 0.7,
+    "enable_intelligent_filtering": true
+  },
+  "diseases": {
+    "wilsons_disease": {
+      "name": "Wilson's Disease",
+      "symptoms": [
+        "jaundice",
+        "tremor",
+        "difficulty speaking",
+        "difficulty swallowing",
+        "fatigue",
+        "abdominal pain",
+        "muscle stiffness",
+        "behavioral changes",
+        "kayser-fleischer rings"
+      ],
+      "min_matches": 3,
+      "time_window_days": 365,
+      "min_visits_required": 2,
+      "min_timespan_days": 14,
+      "confidence_boost_symptoms": ["kayser-fleischer rings", "tremor with jaundice"],
+      "age_focus": "10-40 years",
+      "severity": "progressive",
+      "urgency_score": 4,
+      "suggested_tests": [
+        "Serum ceruloplasmin",
+        "24-hour urine copper",
+        "Liver function tests",
+        "Slit lamp examination"
+      ],
+      "specialists": ["Hepatologist", "Neurologist"],
+      "icd_code": "E83.0"
+    },
+    "pompe_disease": {
+      "name": "Pompe Disease",
+      "symptoms": [
+        "muscle weakness",
+        "respiratory distress",
+        "difficulty feeding",
+        "poor weight gain",
+        "enlarged heart",
+        "enlarged liver",
+        "hearing loss",
+        "delayed motor milestones"
+      ],
+      "min_matches": 3,
+      "time_window_days": 180,
+      "min_visits_required": 2,
+      "min_timespan_days": 7,
+      "age_focus": "<2 years",
+      "severity": "life-threatening",
+      "urgency_score": 5,
+      "suggested_tests": [
+        "Acid alpha-glucosidase enzyme assay",
+        "Muscle biopsy",
+        "Creatine kinase levels",
+        "Chest X-ray",
+        "Echocardiogram"
+      ],
+      "specialists": ["Pediatric Neurologist", "Geneticist"],
+      "icd_code": "E74.02"
+    },
+    "sickle_cell": {
+      "name": "Sickle Cell Disease",
+      "symptoms": [
+        "pain crisis",
+        "anemia",
+        "fatigue",
+        "jaundice",
+        "delayed growth",
+        "frequent infections",
+        "vision problems",
+        "swelling in hands and feet",
+        "priapism"
+      ],
+      "min_matches": 3,
+      "time_window_days": 90,
+      "min_visits_required": 2,
+      "min_timespan_days": 7,
+      "age_focus": "any",
+      "severity": "chronic",
+      "urgency_score": 4,
+      "confidence_boost_symptoms": ["pain crisis", "priapism"],
+      "suggested_tests": [
+        "Hemoglobin electrophoresis",
+        "Complete blood count",
+        "Reticulocyte count",
+        "Bilirubin levels"
+      ],
+      "specialists": ["Hematologist"],
+      "icd_code": "D57.1"
+    },
+    "gaucher_disease": {
+      "name": "Gaucher Disease",
+      "symptoms": [
+        "enlarged spleen",
+        "enlarged liver",
+        "bone pain",
+        "easy bruising",
+        "fatigue",
+        "nosebleeds",
+        "anemia",
+        "bone fractures",
+        "growth delays"
+      ],
+      "min_matches": 3,
+      "time_window_days": 365,
+      "min_visits_required": 2,
+      "min_timespan_days": 30,
+      "age_focus": "any",
+      "severity": "progressive",
+      "urgency_score": 3,
+      "confidence_boost_symptoms": ["enlarged spleen with bone pain"],
+      "suggested_tests": [
+        "Beta-glucosidase enzyme assay",
+        "Bone marrow biopsy",
+        "MRI for bone involvement",
+        "Complete blood count",
+        "Liver function tests"
+      ],
+      "specialists": ["Hematologist", "Geneticist"],
+      "icd_code": "E75.22"
+    },
+    "thalassemia_major": {
+      "name": "Thalassemia Major",
+      "symptoms": [
+        "severe anemia",
+        "pale skin",
+        "weakness",
+        "fatigue",
+        "facial bone deformities",
+        "slow growth",
+        "abdominal swelling",
+        "dark urine",
+        "jaundice"
+      ],
+      "min_matches": 3,
+      "time_window_days": 180,
+      "min_visits_required": 2,
+      "min_timespan_days": 14,
+      "age_focus": "<2 years",
+      "severity": "severe",
+      "urgency_score": 5,
+      "suggested_tests": [
+        "Hemoglobin electrophoresis",
+        "Complete blood count",
+        "Iron studies",
+        "Genetic testing"
+      ],
+      "specialists": ["Pediatric Hematologist"],
+      "icd_code": "D56.1"
+    },
+    "marfan_syndrome": {
+      "name": "Marfan Syndrome",
+      "symptoms": [
+        "tall stature",
+        "long arms and legs",
+        "flexible joints",
+        "curved spine",
+        "chest deformity",
+        "heart murmur",
+        "vision problems",
+        "stretch marks",
+        "flat feet"
+      ],
+      "min_matches": 4,
+      "time_window_days": 730,
+      "min_visits_required": 3,
+      "min_timespan_days": 90,
+      "age_focus": "any",
+      "severity": "progressive",
+      "urgency_score": 4,
+      "confidence_boost_symptoms": ["heart murmur with skeletal features"],
+      "suggested_tests": [
+        "Echocardiogram",
+        "Eye examination",
+        "Genetic testing for FBN1",
+        "Chest X-ray",
+        "MRI of spine"
+      ],
+      "specialists": ["Cardiologist", "Geneticist", "Orthopedist"],
+      "icd_code": "Q87.4"
+    },
+    "duchenne_muscular_dystrophy": {
+      "name": "Duchenne Muscular Dystrophy",
+      "symptoms": [
+        "progressive muscle weakness",
+        "frequent falls",
+        "difficulty running",
+        "difficulty jumping",
+        "waddling gait",
+        "enlarged calf muscles",
+        "learning disabilities",
+        "delayed walking",
+        "fatigue"
+      ],
+      "min_matches": 3,
+      "time_window_days": 365,
+      "min_visits_required": 2,
+      "min_timespan_days": 30,
+      "age_focus": "2-6 years",
+      "gender_risk": "male",
+      "severity": "progressive",
+      "urgency_score": 4,
+      "confidence_boost_symptoms": ["gowers sign", "enlarged calf muscles"],
+      "suggested_tests": [
+        "Creatine kinase (CK) levels",
+        "Genetic testing for dystrophin",
+        "Muscle biopsy",
+        "Electromyography (EMG)"
+      ],
+      "specialists": ["Pediatric Neurologist", "Geneticist"],
+      "icd_code": "G71.0"
+    }
+  }
+}
