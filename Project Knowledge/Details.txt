@@ -1,0 +1,95 @@
+# Smart EMR Technical Overview
+
+This repository contains an AI-driven EMR application built with Streamlit. The system records outpatient visits, generates AI clinical summaries and detects rare diseases over time.
+
+## Core Data Models
+The dashboard loads patient records and parses them into dataclasses `PatientVisit` and `RareAlert` defined in `main_app.py`.
+```python
+@dataclass
+class PatientVisit:
+    patient_id: str
+    visit_date: str
+    symptoms: List[str]
+    provider_notes: str = ""
+    ...
+```
+Lines [13-37] illustrate the fields used for visit analytics and feedback loops.
+
+Rare disease alerts are represented by:
+```python
+@dataclass
+class RareAlert:
+    patient_id: str
+    disease_name: str
+    matched_symptoms: List[str]
+    ...
+```
+[41-49] define the structure for longitudinal risk flags.
+
+## Feedback Collector
+`core/feedback/feedback_collector.py` scans all saved visits. It compares AI-generated notes to the clinician’s final versions, calculates differences and logs flagged cases:
+```python
+class FeedbackCollector:
+    SUMMARY_THRESHOLD = 0.6
+    RX_THRESHOLD = 2
+    ...
+    def collect(self) -> List[FeedbackMetrics]:
+        ...
+        if metrics.summary_diff_score >= self.SUMMARY_THRESHOLD or metrics.rx_diff_score >= self.RX_THRESHOLD:
+            dataset.append(metrics.dict())
+            self._log_flag(metrics)
+```
+This writes detailed metrics to `data/feedback_dataset.json` and high-difference cases to `logs/feedback_flags.json`.
+
+## Longitudinal Tracker
+`core/visits/disease_detector.py` evaluates symptom timelines across visits. It looks for required symptom counts and minimum day spreads:
+```python
+for disease_id, cfg in self.engine.diseases.items():
+    ...
+    if len(unique_symptoms) < min_matches:
+        continue
+    if len(unique_visits) < 2:
+        continue
+    ...
+    flag = {
+        "patient_id": patient_id,
+        "disease_name": cfg.get("name", disease_id),
+        ...
+    }
+```
+[75-140] show how matches lead to a referral PDF created via `generate_referral_letter()` and appended to both patient data and `logs/rare_disease_flags.json`.
+
+## Runner Scripts
+`scripts/run_agents.py` orchestrates the feedback collector and longitudinal tracker:
+```python
+def run_all():
+    res1 = run_feedback_collector()
+    res2 = run_longitudinal_scanner()
+    summary = {**res1, **res2}
+    with open(test_results_path, 'w', encoding='utf-8') as f:
+        json.dump(summary, f, indent=2)
+```
+Executing this script produces summary statistics in `logs/test_results_codex.json` and `logs/test_run_summary.txt`.
+
+`scripts/final_qa_test.py` loads these logs, verifies referral PDFs exist and prints the results.
+
+## Streamlit Dashboard
+`main_app.py` presents three tabs:
+1. **Analytics** – review visits and mark AI summaries.
+2. **Rare Disease Tracker** – view longitudinal flags and download referral PDFs.
+3. **Metrics** – display overall approval and alert rates.
+A sidebar button can run backend tests and save a short summary.
+
+## File Locations
+- Patient JSON files: `data/patients/`
+- Feedback logs: `logs/feedback_flags.json`
+- Rare disease logs: `logs/rare_disease_flags.json`
+- Generated PDFs: `exports/`
+
+## Extending the System
+New diseases can be added in `data/config/rare_diseases_comprehensive.json`. Each entry specifies symptom lists, required matches and diagnostic tests. After updating the config, rerun the tracker to generate new flags.
+
+## Deployment Notes
+Install dependencies from `requirements.txt` and run `streamlit run main_app.py`. The app does not require external API keys for basic functionality. Optional GPT features depend on OpenAI credentials configured via environment variables.
+
+---
